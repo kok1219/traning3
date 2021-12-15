@@ -197,7 +197,15 @@ input, select {
 .league img {
   width: 250px;
   height: 150px;
+  display: block;
+  transition-duration: 0.5s;
 }
+
+.league img:hover {
+  transform: scale(1.2,1.2);
+  transition-duration: 0.5s;
+  }
+
 
 .league p {
   margin-top: 20px;
@@ -219,7 +227,15 @@ input, select {
 .player img {
   width: 250px;
   height: 250px;
+  display: block;
+  transition-duration: 0.5s;
 }
+
+.player img:hover {
+  transform: scale(1.2,1.2);
+  transition-duration: 0.5s;
+  }
+
 
 .player ul {
   display: flex;
@@ -233,6 +249,10 @@ input, select {
 
 .player ul li a {
   list-style: none;
+}
+
+.player p {
+  margin-top: 30px;
 }
 
 .history {
@@ -258,6 +278,13 @@ input, select {
 .history-explanation img {
   width: 750px;
   height: 400px;
+  display: block;
+  transition-duration: 0.5s;
+}
+
+.history-explanation img:hover {
+  transform: scale(0.9,0.9);
+  transition-duration: 0.5s;
 }
 
 .history-box {
@@ -275,6 +302,10 @@ input, select {
 
 .contact p {
   margin-bottom: 50px;
+}
+
+.sns li {
+  padding-left: 50px;
 }
 
 .footer-inner{

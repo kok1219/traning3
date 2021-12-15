@@ -13,13 +13,13 @@
         <div class="header-inner">
             <h1>soccer</h1>
             <ul>
-                <li><a href="#">Premier</a></li>
-                <li><a href="#">LaLiga Santander</a></li>
-                <li><a href="#">Serie A</a></li>
-                <li><a href="#">Ligue 1</a></li>
-                <li><a href="#">Bundesliga</a></li>
+                <li><a href="#league">Premier</a></li>
+                <li><a href="#league">LaLiga Santander</a></li>
+                <li><a href="#league">Serie A</a></li>
+                <li><a href="#league">Ligue 1</a></li>
+                <li><a href="#league">Bundesliga</a></li>
                 <li>|</li>
-                <li><a href="#">favorite</a></li>
+                <li><a href="#player">favorite</a></li>
                 <li>|</li>
                 <li id="tw"><a href="#"><i class="fab fa-twitter-square"></i></a></li>
                 <li id="instagram"><a href="#"><i class="fab fa-instagram"></i></a></li>
@@ -33,7 +33,7 @@
         </div>
 
         <div class="main-contents">
-            <div class="about">
+            <div class="about"><span id="league"></span>
                 <h2>about</h2>
                 <p>海外サッカーの魅力を伝えます。<br>
                 日本でもJリーグにとどまらす、世界のサッカーも知って欲しい。<br>
@@ -70,7 +70,7 @@
                 </ul>
             </div>
 
-            <div class="player">
+            <div class="player"><span id="player"></span>
                 <h2>player</h2>
                 <p>お気に入り選手の紹介です。<br>
                 あなたの知っているサッカー選手はいるでしょうか。<br>
@@ -184,31 +184,6 @@
                 <p>是非、インスタグラムやTwitterをフォローしてね♡<br>
                 これからサッカーについての記事を載せていきます。<br>
                 紹介して欲しい内容や気になる内容を気軽にお問合せ下さい。</p>
-
-                <div>
-                    <form action="confirm.php" method="post" name="form" onsubmit="return validate()">
-                        <div>
-                            <div>
-                                <label>お名前<span>※必須</span></label>
-                                <input type="text" name="name" placeholder="例）山田太郎" value="">
-                            </div>
-                            <div>
-                                <label>ふりがな<span>※必須</span></label>
-                                <input type="text" name="furigana" placeholder="例）やまだたろう" value="">
-                            </div>
-                            <div>
-                                <label>メールアドレス<span>※必須</span></label>
-                                <input type="text" name="email" placeholder="例）guest@example.com" value="">
-                            </div>
-                            <div>
-                                <label>お問い合わせ内容<span>※必須</span></label>
-                                <textarea name="content" rows="5" placeholder="お問合せ内容を入力"></textarea>
-                            </div>
-                        </div>
-                        <button type="submit">確認画面へ</button>
-                    </form>
-                </div>
-
             </div>
         </div>
     </main>
@@ -220,6 +195,8 @@
                 <li><a href="#">instagram</a></li>
                 <li><a href="#">contact</a></li>
                 <li>koki.kobayashi</li>
+                <li id="tw"><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                <li id="instagram"><a href="#"><i class="fab fa-instagram"></i></a></li>
             </ul>
         </div>
     </footer>
